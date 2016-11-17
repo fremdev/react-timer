@@ -25,7 +25,7 @@ describe('Countdown', () => {
       }, 1001);
     });
 
-    it('should never set sount less than zero', (done) => {
+    it('should never set count less than zero', (done) => {
       var countdown = TestUtils.renderIntoDocument(<Countdown/>);
       countdown.handleSetCountdown(1);
 
